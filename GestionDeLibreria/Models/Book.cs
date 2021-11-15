@@ -11,13 +11,17 @@ namespace GestionDeLibreria.Models
         public int BookId { get; set; }
 
         [Required]
+        [Display(Name ="Titulo")]
         public string Title { get; set; }
 
         [Required]
+        [Display(Name ="Numero Serial")]
         public string SerialNumber { get; set; }
 
+        [Display(Name ="Autor")]
         public string Author { get; set; }
 
+        [Display(Name ="Editor")]
         public string Publisher { get; set; }
 
     }
